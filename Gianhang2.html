@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible "content="IE-edge">
+   <meta name="viewport" content="width=device-width,intitial-scale=1.0">
+   <title>Gian Hang-1</title>
+   <link rel="stylesheet" href="Gianhang2.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<header>
+    <a href="#" class="logo"><img src="image/Logo-1.png"></a>
+
+        <ul class="navmenu">
+            <li><a href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/Buy.html">Quay về</a></li>
+            <li><a href="https://www.facebook.com/HieuH24/">Liên hệ</a></li>
+            <li><a href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/GopY.html">Góp ý</a></li>
+            <li><a href="#">Docs</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <div class="search-container">
+                <input type="text" id="search-box" placeholder="Tìm kiếm">
+                <a href="#"><i class='bx bx-search-alt-2' id="search-icon"></i></a>
+                
+            </div>
+
+            <a href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/Dangnhap.html"><i class='bx bx-user'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+</header>
+<body>
+  <div class="main">
+    <div class="men_text">
+        <h1>Dành cho mùa<span>Hè</span><br>Năng động</br></h1>
+    </div>
+    <div class="main_image">
+        <img src="image/2.jpg" alt="">
+    </div>
+  </div>
+  <div class="Text">
+  <p>Phong cách mùa hè, năng động, cá tính, được làm bằng chất liệu vải Jean <br>Kết hợp với tone màu phù hợp với người dùng trẻ tuổi   
+    <br> Set gồm: Áo, Khăn, Nón, Giày, Thắt lưng</p>
+</div>
+
+    <a href="#" id="Buying" class="main-btn">Mua ngay<i class='bx bx-right-arrow-alt' ></i></a>
+    <a href="#" id="cart" class="main-btn">Thêm vào Giỏ hàng<i class='bx bx-cart'></i></a>
+    
+</body>
+
+
+<script>
+    const searchBox = document.getElementById('search-box');
+    const searchIcon = document.getElementById('search-icon');
+  
+    searchBox.style.display = 'none';
+  
+    searchIcon.addEventListener('click', () => {
+      if (searchBox.style.display === 'none') {
+        searchBox.style.display = 'block';
+      } else {
+        searchBox.style.display = 'none';
+      }
+    });
+  </script>

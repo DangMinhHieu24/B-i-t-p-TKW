@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+        color: #2c2c2c;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding: 10px 20px;
+        font-weight: 400;
+        transition: all .42 ease;
+}
+.navmenu a:hover{
+    color: #EE1C47;
+
+}
+
+.nav-icon{
+    display:flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #2c2c2c;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color:#EE1C47
+}
+#menu-icon{
+    font-size: 35px;
+    color: #2c2c2c;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-box {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+  
+  #search-icon {
+    cursor: pointer;
+  }
+  
+  #search-icon:hover {
+    color: #000;
+  }
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+    
+}
+.main_image img{
+    width: 70%;
+height: auto;
+transition: all .40s;
+}
+
+.main .men_text h1{
+    font-size: 60px;
+    position: relative;
+    top: -150px;
+    left: 20px;
+}
+
+.main .men_text h1 span{
+    margin-left: 15px;
+    color: #542209;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 70px;
+}
+.Text p{
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left: 123px;
+    bottom: 200px;
+    line-height: 22px
+ }
+
+ .buying{
+    display: flex;
+
+ }
+
+ /*  Mua ngay */
+
+ .main-btn{
+    display: inline-block;
+    color: #111 ;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #111;
+    padding: 12px 25px;
+    transition: all .42s ease;
+}
+.main-btn:hover{
+    background-color: #000;
+    color:aliceblue;
+}
+.main-btn i{
+    vertical-align: middle;
+}
+
+#Buying{
+    position: relative;
+    left: 120px;
+    bottom: 170px;
+    line-height: 22px
+    
+}
+#cart{
+    position: relative;
+    left: 120px;
+    bottom: 170px;
+    line-height: 22px
+    
+}
