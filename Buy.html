@@ -18,6 +18,15 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
 
+    <div class="filters">
+        <label for="category">Loại sản phẩm:</label>
+        <select id="category">
+            <option value="all">Tất cả</option>
+            <option value="old">Phong cách Trưởng thành</option>
+            <option value="young">Phong cách Trẻ trung</option>
+        </select>
+    </div>
+
     <header>
         <a href="#" class="logo"><img src="image/Logo-1.png"></a>
 
@@ -58,181 +67,185 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <div class="center-text">
             <h2>Sản phẩm thịnh hành <span>của chúng tôi</span></h2>
         </div>
-        <div type="old" class="products" >
-            <div class="row">
-                <a class="p-1" href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/GianHang1.html#"><img src="image/1.jpg" alt=""> </a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
 
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
+        <div id="products">
+            <div type="old" class="products" >
+                <div class="row">
+                    <a class="p-1" href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/GianHang1.html#"><img src="image/1.jpg" alt=""> </a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+    
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+    
+                   
+                    <div class="price">
+                       <div class="text">
+                        <h4>Dành cho mùa Hạ</h4>
+                        <p>190.000đ-290.000đ</p>
+                        </div>
+                    </div>
                 </div>
-
-               
-                <div class="price">
-                   <div class="text">
-                    <h4>Dành cho mùa Hạ</h4>
-                    <p>190.000đ-290.000đ</p>
+    
+    
+                <div type="young" class="row" >
+                    <a href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/Gianhang2.html">  <img  src="image/2.jpg" alt=""></a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Set mùa hè</h4>
+                        <p>300.000đ-350.000đ</p>
+                    </div>
+                </div>
+            
+                <div type="young" class="row" >
+                    <a href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/Gianhang3.html"><img src="image/3.jpg" alt=""></a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Phong cách nhẹ nhàn</h4>
+                        <p>270.000đ-290.000đ</p>
+                    </div>
+                </div>
+    
+                <div type="old" class="row" >
+                    <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang4.html"><img src="image/4.jpg" alt=""></a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Bộ sưu tập truyền thống</h4>
+                        <p>310.000đ-350.000đ</p>
+                    </div>
+                </div>
+    
+                <div  type="young" class="row" >
+                    <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang5.html"><img src="image/5.jpg" alt=""></a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Sang trọng</h4>
+                        <p>200.000đ-230.000đ</p>
+                    </div>
+                </div>
+    
+                <div type="old" class="row" >
+                    <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang6.html"><img src="image/6.jpg" alt=""></a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Dành cho ngày thường</h4>
+                        <p>199.000đ-299.000đ</p>
+                    </div>
+                </div>
+    
+                <div type="old" class="row" >
+                    <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhan7.html"><img src="image/7.jpg" alt=""></a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Dự tiệc</h4>
+                        <p>299.000đ-330.000đ</p>
+                    </div>
+                </div>
+    
+                <div type="young" class="row" >
+                    <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang8.html"><img src="image/8.jpg" alt=""></a>
+                    <div class="product-text">
+                        <h5>Sale</h5>
+                    </div>
+                    <div class="heart-icon">
+                        <i class='bx bx-heart' ></i>
+                    </div>
+                    <div class="ratting">
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bx-star' ></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <div class="price">
+                        <h4>Dã ngoại</h4>
+                        <p>179.000đ-219.000đ</p>
                     </div>
                 </div>
             </div>
-
-
-            <div type="young" class="row" >
-                <a href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/Gianhang2.html">  <img  src="image/2.jpg" alt=""></a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-                <div class="price">
-                    <h4>Set mùa hè</h4>
-                    <p>300.000đ-350.000đ</p>
-                </div>
-            </div>
-        
-            <div type="young" class="row" >
-                <a href="file:///C:/Users/dminh/OneDrive/M%C3%A1y%20t%C3%ADnh/new-html/Gianhang3.html"><img src="image/3.jpg" alt=""></a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-                <div class="price">
-                    <h4>Phong cách nhẹ nhàn</h4>
-                    <p>270.000đ-290.000đ</p>
-                </div>
-            </div>
-
-            <div type="young" class="row" >
-                <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang4.html"><img src="image/4.jpg" alt=""></a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-                <div class="price">
-                    <h4>Bộ sưu tập truyền thống</h4>
-                    <p>310.000đ-350.000đ</p>
-                </div>
-            </div>
-
-            <div  type="young" class="row" >
-                <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang5.html"><img src="image/5.jpg" alt=""></a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-                <div class="price">
-                    <h4>Sang trọng</h4>
-                    <p>200.000đ-230.000đ</p>
-                </div>
-            </div>
-
-            <div type="old" class="row" >
-                <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang6.html"><img src="image/6.jpg" alt=""></a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-                <div class="price">
-                    <h4>Dành cho ngày thường</h4>
-                    <p>199.000đ-299.000đ</p>
-                </div>
-            </div>
-
-            <div type="old" class="row" >
-                <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhan7.html"><img src="image/7.jpg" alt=""></a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-                <div class="price">
-                    <h4>Dự tiệc</h4>
-                    <p>299.000đ-330.000đ</p>
-                </div>
-            </div>
-
-            <div type="old" class="row" >
-                <a href="file:///C:/Users/dminh/OneDrive/Máy%20tính/new-html/Gianhang8.html"><img src="image/8.jpg" alt=""></a>
-                <div class="product-text">
-                    <h5>Sale</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' ></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bx-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-                <div class="price">
-                    <h4>Dã ngoại</h4>
-                    <p>179.000đ-219.000đ</p>
-                </div>
-            </div>
         </div>
+        
     </section>
     <!-- About me -->
     <section class="client-reviews">
@@ -257,12 +270,8 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
             </div>
         </div>
     </section>
-<!-- Lọc sp -->
-<div id="booths-filter">
-<button class="All">ALL</button>
-<button class="Young">Trẻ trung</button>
-<button class="Old">Trưởng thành</button>
-</div>
+
+
   
     
     <script>
@@ -282,23 +291,20 @@ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     /* loc Sp */
   
-const productList = document.getElementById('product-list');
-const productFilter = document.getElementById('product-filter');
+    document.addEventListener('DOMContentLoaded', function() {
+    const categorySelect = document.getElementById('category');
+    const products = document.querySelectorAll('#products .row');
 
-productFilter.addEventListener('click', function(event) {
-  const targetButton = event.target;
-  const filterCategory = targetButton.dataset.filter;
+    categorySelect.addEventListener('change', function() {
+        const selectedCategory = categorySelect.value;
 
-  for (const product of productList.querySelectorAll('.product')) {
-    const productCategory = product.dataset.category;
-
-    if (filterCategory === 'all' || filterCategory === productCategory) {
-      product.style.display = 'block';
-    } else {
-      product.style.display = 'none';
-    }
-  }
+        products.forEach(product => {
+            if (selectedCategory === 'all' || product.getAttribute('type') === selectedCategory) {
+                product.style.display = '';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+    });
 });
       </script>
-
-      

@@ -315,3 +315,59 @@ transition: all 200ms;
         top: 875px;
         left: 575px;
     }
+    .filters {
+        margin-bottom: 20px;
+      }
+      
+      .filters label {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      
+      .filters select {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      
+      /* Style for product rows */
+      .row {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #f9f9f9;
+      }
+      
+      .row img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .product-text {
+        margin-top: 10px;
+      }
+      
+      .product-text h5 {
+        margin: 0;
+      }
+      
+      .heart-icon, .ratting, .price {
+        margin-top: 10px;
+      }
+      
+      .price h4 {
+        margin: 5px 0;
+        font-size: 18px;
+      }
+      
+      .price p {
+        margin: 0;
+        font-size: 14px;
+      }
+
+    .filters{
+        position: absolute;
+        bottom: -250px;
+        left: 150px;
+    }
